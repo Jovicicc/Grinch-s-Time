@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+.pre-header {
+    background-color: lightgreen;
+    height: 40px;
+}
+.pre-header p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding-top: 10px;
+}
+img{
+    width: 115px;
+    height: 95px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    padding-bottom: 30px;
+}
+li{
+    display: inline-block;
+    position: right;
+    padding-right: 15px;
+    margin-top: 15px;
+    font-size: 30px;
+}
+li a {
+    text-decoration: none;
+    color: darkgreen;
+    border-right: 2px solid lightgreen;
+    padding-right: 5px;
+}
+ul .kontakt-btn a{
+    background-color: lightgreen;
+    padding: 5px;
+    color: white;
+    border: 1px solid lightgreen;
+}
+li a:hover{
+    color: lightgreen;
+    border-right: 4px solid darkgreen;
+}
+ul .kontakt-btn a:hover{
+    background-color: transparent;
+    color: lightgreen;
+    transition: 0.2s;
+}
+.class{
+    text-align: center;
+    color: darkgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 24px;
+    padding-top: 10px;
+}
+.menu .box-container .box{
+    padding: 80px;
+    text-align: center;
+    border: 2px solid lightgreen;
+    margin-left: 5px;
+}
+.menu .box-container .box img{
+    height: 180px;
+    width: 210px;
+}
+.menu .box-container .box h3{
+    color: lightgreen;
+    font-size: 25px;
+    padding: 8px 0px;
+}
+.menu .box-container .box .price{
+    color: lightgreen;
+    font-size: 25px;
+    padding: 8px 0px;
+    font-weight: bold;
+}
+.menu .box-container .box:hover{
+    background-color: #aaaa80;
+}
